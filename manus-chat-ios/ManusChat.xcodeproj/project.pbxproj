@@ -1,0 +1,59 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F8E4C62B041F3B00A8C2A5 /* ManusChatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4C52B041F3B00A8C2A5 /* ManusChatApp.swift */; };
+		A5F8E4C82B041F3B00A8C2A5 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4C72B041F3B00A8C2A5 /* Message.swift */; };
+		A5F8E4CA2B041F3B00A8C2A5 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4C92B041F3B00A8C2A5 /* APIService.swift */; };
+		A5F8E4CC2B041F3B00A8C2A5 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4CB2B041F3B00A8C2A5 /* ChatView.swift */; };
+		A5F8E4CE2B041F3B00A8C2A5 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4CD2B041F3B00A8C2A5 /* SettingsView.swift */; };
+		A5F8E4D02B041F3B00A8C2A5 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4CF2B041F3B00A8C2A5 /* ChatViewModel.swift */; };
+		A5F8E4D22B041F3B00A8C2A5 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F8E4D12B041F3B00A8C2A5 /* SettingsViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5F8E4C42B041F3B00A8C2A5 /* ManusChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ManusChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F8E4C52B041F3B00A8C2A5 /* ManusChatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManusChatApp.swift; sourceTree = "<group>"; };
+		A5F8E4C72B041F3B00A8C2A5 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models/Message.swift; sourceTree = "<group>"; };
+		A5F8E4C92B041F3B00A8C2A5 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Services/APIService.swift; sourceTree = "<group>"; };
+		A5F8E4CB2B041F3B00A8C2A5 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/ChatView.swift; sourceTree = "<group>"; };
+		A5F8E4CD2B041F3B00A8C2A5 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		A5F8E4CF2B041F3B00A8C2A5 /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/ChatViewModel.swift; sourceTree = "<group>"; };
+		A5F8E4D12B041F3B00A8C2A5 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModels/SettingsViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		A5F8E4BE2B041F3B00A8C2A5 = {isa = PBXGroup; children = (A5F8E4C32B041F3B00A8C2A5 /* ManusChat */, A5F8E4C22B041F3B00A8C2A5 /* Products */, ); sourceTree = "<group>"; };
+		A5F8E4C22B041F3B00A8C2A5 /* Products */ = {isa = PBXGroup; children = (A5F8E4C42B041F3B00A8C2A5 /* ManusChat.app */, ); name = Products; sourceTree = "<group>"; };
+		A5F8E4C32B041F3B00A8C2A5 /* ManusChat */ = {isa = PBXGroup; children = (A5F8E4C52B041F3B00A8C2A5 /* ManusChatApp.swift */, A5F8E4C72B041F3B00A8C2A5 /* Message.swift */, A5F8E4C92B041F3B00A8C2A5 /* APIService.swift */, A5F8E4CB2B041F3B00A8C2A5 /* ChatView.swift */, A5F8E4CD2B041F3B00A8C2A5 /* SettingsView.swift */, A5F8E4CF2B041F3B00A8C2A5 /* ChatViewModel.swift */, A5F8E4D12B041F3B00A8C2A5 /* SettingsViewModel.swift */, ); path = ManusChat; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F8E4C12B041F3B00A8C2A5 /* ManusChat */ = {isa = PBXNativeTarget; buildConfigurationList = A5F8E4D62B041F3B00A8C2A5 /* Build configuration list for PBXNativeTarget "ManusChat" */; buildPhases = (A5F8E4BF2B041F3B00A8C2A5 /* Sources */, A5F8E4C02B041F3B00A8C2A5 /* Frameworks */, A5F8E4C12B041F3B00A8C2A5 /* Resources */, ); buildRules = ( ); dependencies = ( ); name = ManusChat; productName = ManusChat; productReference = A5F8E4C42B041F3B00A8C2A5 /* ManusChat.app */; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F8E4BD2B041F3B00A8C2A5 /* Project object */ = {isa = PBXProject; attributes = {LastUpgradeCheck = 1500; }; buildConfigurationList = A5F8E4C02B041F3B00A8C2A5 /* Build configuration list for PBXProject "ManusChat" */; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; mainGroup = A5F8E4BE2B041F3B00A8C2A5; productRefGroup = A5F8E4C22B041F3B00A8C2A5 /* Products */; projectDirPath = ""; projectRoot = ""; targets = (A5F8E4C12B041F3B00A8C2A5 /* ManusChat */, ); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F8E4BF2B041F3B00A8C2A5 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (A5F8E4C62B041F3B00A8C2A5 /* ManusChatApp.swift in Sources */, A5F8E4C82B041F3B00A8C2A5 /* Message.swift in Sources */, A5F8E4CA2B041F3B00A8C2A5 /* APIService.swift in Sources */, A5F8E4CC2B041F3B00A8C2A5 /* ChatView.swift in Sources */, A5F8E4CE2B041F3B00A8C2A5 /* SettingsView.swift in Sources */, A5F8E4D02B041F3B00A8C2A5 /* ChatViewModel.swift in Sources */, A5F8E4D22B041F3B00A8C2A5 /* SettingsViewModel.swift in Sources */, ); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A5F8E4D42B041F3B00A8C2A5 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = ManusChat/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.ManusChat"; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Debug; };
+		A5F8E4D52B041F3B00A8C2A5 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon; CODE_SIGN_STYLE = Automatic; DEVELOPMENT_TEAM = ""; INFOPLIST_FILE = ManusChat/Info.plist; LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks"; PRODUCT_BUNDLE_IDENTIFIER = "com.example.ManusChat"; PRODUCT_NAME = "$(TARGET_NAME)"; SWIFT_VERSION = 5.0; TARGETED_DEVICE_FAMILY = "1,2"; }; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F8E4C02B041F3B00A8C2A5 /* Build configuration list for PBXProject "ManusChat" */ = {isa = XCConfigurationList; buildConfigurations = (A5F8E4D42B041F3B00A8C2A5 /* Debug */, A5F8E4D52B041F3B00A8C2A5 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		A5F8E4D62B041F3B00A8C2A5 /* Build configuration list for PBXNativeTarget "ManusChat" */ = {isa = XCConfigurationList; buildConfigurations = (A5F8E4D42B041F3B00A8C2A5 /* Debug */, A5F8E4D52B041F3B00A8C2A5 /* Release */, ); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F8E4BD2B041F3B00A8C2A5 /* Project object */;
+}
